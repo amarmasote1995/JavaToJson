@@ -1,17 +1,25 @@
+/*
+ * This class is used as POJO class for the PropertyToJson.java class which 
+ * converts property file into Json body
+ * @author Amar Masote
+ * @version 24-03-2017 
+ * 
+ */ 
 package com.amar.JavaToJson;
+ 
 
 public class PojoClass {
 
+	/**
+	 * This class contains the same variables present in property file as key field.
+	 */
 	
 		public String userName;
 		public String idNo;
 		
 		
 
-
-
-
-		public String getUserName() {
+        public String getUserName() {
 			return userName;
 		}
 
